@@ -54,7 +54,7 @@ if(isset($_POST['add'])){
 
 <body>
             
-    <?php include 'nav.php';?>
+    <?php //include 'nav.php';?>
  
                         <form action="" method="POST">
        
