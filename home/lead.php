@@ -99,7 +99,7 @@ if(isset($_POST['add'])){
                                                 <input type="datetime-local" class="form-control" id="reg_date" name="reg_date" placeholder="Registration Date">
                                             </div>
                                             <button type="reset" class="btn btn-secondary editbrand" data-bs-dismiss="modal" id="editBrand" >Cancel</button>
-                                        <button type="submit" class="btn btn-primary" name="add" id="add"> Record Password</button>
+                                        <input type="submit" class="btn btn-primary" name="add" value="Record Password">
                             
             
                                         </form>
