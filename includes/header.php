@@ -2,7 +2,7 @@
 <html lang="en">
 <?php
 session_start();
-if(empty($_SESSION["username"]))
+if(empty($_SESSION["id"]))
 {
     header('location:../login.php');
 }
@@ -36,7 +36,7 @@ if(empty($_SESSION["username"]))
 <div class="d-flex" id="wrapper">
     <!-- Sidebar-->
     <div class="border-end bg-white" id="sidebar-wrapper">
-        <div class="sidebar-heading border-bottom bg-light"><?php echo $_SESSION['username']; ?></div>
+        <div class="sidebar-heading border-bottom bg-light"><?php echo $_SESSION['name']; ?></div>
         <div class="list-group list-group-flush">
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../index.php">Dashboard</a>
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../branding/">Branding</a>
