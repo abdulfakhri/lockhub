@@ -92,7 +92,7 @@
                     <div class="card-body table-responsive">
                         <table class="table table-bordered table-hovered table-striped" id="productTable">
                             <thead>
-                            <th>  ID </th>
+                            <th>  # </th>
                             <th> Account Name </th>
                             <th> Account URL </th>
                             <th> Registered Name </th>
@@ -233,7 +233,7 @@ $(document).on('click','.delete',function () {
             data: {brand: brand},
             success: function (data) {
                 alert(data);
-               // setInterval('refresh()', 100);
+                setInterval('refresh()', 100);
             }
         });
     }

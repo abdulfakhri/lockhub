@@ -1,7 +1,6 @@
 <?php
 require_once ('../includes/db.php');
-if(isset($_POST['brand']))
-{
+if(isset($_POST['brand'])){
     $db = new DBController();
     $conn = $db->connect();
     try{

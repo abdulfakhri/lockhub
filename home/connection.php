@@ -1,8 +1,9 @@
 <?php
 $databaseHost = 'localhost';
-$databaseName = 'crm_steve';
-$databaseUsername = 'root';
-$databasePassword = 'root';
+$databaseName = 'u559678163_lckhub';
+$databaseUsername = 'u559678163_lckhubu';
+$databasePassword = '!@#123qweasdZXC';
+
 
 
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
