@@ -287,7 +287,7 @@ hr {
        
         <button type="submit" name="login" class="signupbtn">Sign In</button>
         <button type="" class="cancelbtn"> Cancel</button>
-        <input type="checkbox" checked=""> Remember me<br></br>
+        <input type="checkbox"> Remember me<br></br>
             
             Forgot <a href="#"> password? </a>
       </div>
