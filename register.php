@@ -1,10 +1,9 @@
 <?php
+include('config.php');
+
 if(isset($_POST['signup'])) {
     
-  $databaseHost = 'localhost';
-  $databaseName = 'crm_steve';
-  $databaseUsername ='root';
-  $databasePassword ='root';
+ 
 
   $name = $_POST['name'];
 	$username = $_POST['username'];
