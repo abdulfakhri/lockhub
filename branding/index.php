@@ -28,7 +28,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="staticBackdropLabel">Insert Brand</h5>
+                                        <h5 class="modal-title" id="staticBackdropLabel">Note The Password</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -70,11 +70,11 @@
                                         <div class="form-group">
                                             
                                             
-                                            <textarea class="form-control" id="key_questions" name="key_questions" cols="20" rows="20" placeholder="Account Security Questions"></textarea>
+                                            <textarea class="form-control" id="key_questions" name="key_questions" cols="10" rows="10" placeholder="Account Security Questions"></textarea>
                                           
                                         </div>
                                             <div class="form-group">
-                                                
+                                                <label for="b_name">Registration Date</label>
                                                 <input type="datetime-local" class="form-control" id="reg_date" name="reg_date" placeholder="Registration Date">
                                             </div>
                                         </form>
