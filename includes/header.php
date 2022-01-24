@@ -20,7 +20,7 @@ if(empty($_SESSION["id"]))
     <link rel="stylesheet" href="../Vendor/font-awesome/fonts/fontawesome-webfont5b62.eot">
     <link rel="stylesheet" href="../Vendor/font-awesome/fonts/fontawesome-webfont5b62.svg">
     <link rel="stylesheet" href="../Vendor/font-awesome/fonts/fontawesome-webfont5b62.ttf">
-    <title>Sticky Review App</title>
+    <title>Lockhub</title>
     <script src="../Vendor/js/bootstrap.bundle.js"></script>
     <script src="../Vendor/jquery.js"></script>
     <script src="../Vendor/datatables.js"></script>
@@ -38,14 +38,8 @@ if(empty($_SESSION["id"]))
     <div class="border-end bg-white" id="sidebar-wrapper">
         <div class="sidebar-heading border-bottom bg-light"><?php echo $_SESSION['name']; ?></div>
         <div class="list-group list-group-flush">
-            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../index.php">Dashboard</a>
-            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../branding/">Branding</a>
-            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../campaign/">Campaigns</a>
-            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../reviews/">Sticky Review</a>
-            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../review_link">Create Review Link</a>
-
-            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../PositiveFeedbacks/">Positive Feedbacks</a>
-            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../NegativeFeedbacks/">Negative Feedbacks</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/passnote/index.php">Dashboard</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3" href="/passnote/index.php">Passnote</a>
 
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="../Controllers/logoutController.php?logout=1">Sign Out</a>
         </div>
@@ -59,7 +53,7 @@ if(empty($_SESSION["id"]))
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                        <li class="nav-item active"><a class="nav-link" href="#!">Sticky Review App</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#!">Lockhub</a></li>
 <!--                        <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>-->
 <!--                        <li class="nav-item dropdown">-->
 <!--                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>-->
