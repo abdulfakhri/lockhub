@@ -1,12 +1,9 @@
-<?php session_start(); ?>
-
-<?php
+<?php 
+session_start(); 
 if(!isset($_SESSION['valid'])) {
-	header('Location: /spages/login.php');
+	header('Location: /login.php');
 }
-?>
 
-<?PHP
 if(isset($_POST['add'])){
     
 
@@ -52,43 +49,10 @@ if(isset($_POST['add'])){
    
 
 <body>
-       
-
             
     <?php include 'nav.php';?>
-         
-
-       
-        
-  
-           <!-- 
-            <form action="" method="POST">
-
-                           <input id="" name="name" placeholder="Name" type="text" required /><br>
-                           
-                           <input id="" name="phone" placeholder="Phone" type="text"required /><br>
-                           
-                           <input id="" name="email" placeholder="Email" type="text"required /><br>
-                          
-                           <input id="" name="location" placeholder="Location" type="text" required  /><br>
-                           
-                           <input id="" name="business_phone" placeholder="Business Phone" type="text" required /><br>
-                           
-                           <input id="" name="website" placeholder="Website" type="text"required /><br>
-                           
-                           <input id="" name="business_name" placeholder="Business Name" type="text"required /><br>
-                          
-                           <input id="" name="lead_status" placeholder="Lead Status" type="text" required  /><br>
-                           
-                            <input id="" name="business_industry" placeholder="Business Industry" type="text"required /><br>
-                          
-                           <input id="" name="lead_score" placeholder="Lead Score" type="text" required  /><br>
-
-                         <button type="submit"  class="btn btn-default" name='add' >Add</button><br>
-                         
-                         <button type="reset" class="btn btn-default">Clear Form </button>
-            </form>-->
-            
+ 
+                        <form action="" method="POST">
        
                                             <div class="form-group">
                                            
@@ -134,8 +98,8 @@ if(isset($_POST['add'])){
                                                 <label for="b_name">Registration Date</label>
                                                 <input type="datetime-local" class="form-control" id="reg_date" name="reg_date" placeholder="Registration Date">
                                             </div>
-                                            <button type="button" class="btn btn-secondary editbrand" data-bs-dismiss="modal" id="editBrand" >Close</button>
-                                        <button type="button" class="btn btn-primary" name="saveBrand" id="saveBrand"> Save</button>
+                                            <button type="reset" class="btn btn-secondary editbrand" data-bs-dismiss="modal" id="editBrand" >Cancel</button>
+                                        <button type="button" class="btn btn-primary" name="add" id="add"> Record Password</button>
                             
             
                                         </form>
