@@ -34,49 +34,48 @@
                                     <div class="modal-body">
                                         <form id="brandInsertForm">
                                             <div class="form-group">
-                                            <label for="b_name">Account Name</label>
+                                           
                                                 <input type="text" class="form-control" id="account_name" name="account_name" placeholder="Account Name" autofocus autocomplete="Name">
-                                                <label for="b_name">Name</label>
-                                                <input type="text" class="form-control" id="name" name="b_name" placeholder="Brand Name" autofocus autocomplete="Name">
+                                               
                                             </div>
                                             <div class="form-group">
-                                                <label for="b_url">Account URL</label>
+                                               
                                                 <input type="text" class="form-control" id="url" name="url" placeholder="Account URL"  autocomplete="URL">
                                             </div>
                                             <div class="form-group">
                                             
-                                                <label for="b_name">Name</label>
-                                                <input type="text" class="form-control" id="name" name="name" placeholder="Brand Name" autofocus autocomplete="Name">
+                                                
+                                                <input type="text" class="form-control" id="name" name="name" placeholder="Registered Name" autofocus autocomplete="Name">
                                             </div>
                                             <div class="form-group">
                                             
-                                                <label for="b_name">Registered email</label>
-                                                <input type="text" class="form-control" id="email" name="email" placeholder="Registered email" autofocus autocomplete="Name">
+                                                
+                                                <input type="text" class="form-control" id="email" name="email" placeholder="Registered Email" autofocus autocomplete="Name">
                                             </div>
                                             <div class="form-group">
                                             
-                                            <label for="b_name">Account Password</label>
+                                           
                                             <input type="text" class="form-control" id="password" name="password" placeholder="Account Password" autofocus autocomplete="Name">
                                         </div>
                                         <div class="form-group">
                                             
-                                            <label for="b_name">Registered Phone</label>
+                                           
                                             <input type="text" class="form-control" id="phone" name="phone" placeholder="Registered Phone" autofocus autocomplete="Name">
                                         </div>
                                         <div class="form-group">
                                             
-                                            <label for="b_name">Registered Username</label>
+                                           
                                             <input type="text" class="form-control" id="username" name="username" placeholder="Registered Username" autofocus autocomplete="Name">
                                         </div>
                                         <div class="form-group">
                                             
-                                            <label for="b_name">Account Security Questions</label>
-                                            <textarea class="form-control" id="key_questions" name="key_questions" cols="50" rows="30"></textarea>
+                                            
+                                            <textarea class="form-control" id="key_questions" name="key_questions" cols="20" rows="20" placeholder="Account Security Questions"></textarea>
                                           
                                         </div>
                                             <div class="form-group">
-                                                <label for="b_name">Registration Date</label>
-                                                <input type="datetime-local" class="form-control" id="reg_date" name="reg_date">
+                                                
+                                                <input type="datetime-local" class="form-control" id="reg_date" name="reg_date" placeholder="Registration Date">
                                             </div>
                                         </form>
                                     </div>
