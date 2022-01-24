@@ -92,27 +92,36 @@
                     <div class="card-body table-responsive">
                         <table class="table table-bordered table-hovered table-striped" id="productTable">
                             <thead>
-                            <th> Brand ID </th>
-                            <th> Brand Name </th>
-                            <th> Brand URL </th>
-                            <th> Registration Date </th>
-                            <th> User ID </th>
+                            <th>  ID </th>
+                            <th> Account Name </th>
+                            <th> Account URL </th>
+                            <th> Registered Name </th>
+                            <th> Registered Email </th>
+                            <th> Registered Password </th>
+                            <th> Registered Username </th>
+                            <th> Security Questions </th>
                             <th> Actions </th>
                             </thead>
 
                             <tbody>
-
+                            
                             <?php
-                            foreach($brands as $brand) : ?>
+                            foreach($brands as $brand) : 
+                            $i=1;
+                            ?>
 
                                 <tr>
-                                    <td id="b_id"> <?php echo $brand['b_id']; ?> </td>
-                                    <td> <?php echo $brand['b_name']; ?> </td>
-                                    <td> <?php echo $brand['b_url']; ?> </td>
-                                    <td> <?php echo $brand['b_reg_date']; ?> </td>
-                                    <td> <?php echo $brand['b_user_key']; ?> </td>
-                                    <td> <button  id="<?php echo $brand['b_id'];?>" class="btn btn-info update"><i class="fa fa-edit"></i></button>
-                                        <button  id="<?php echo $brand['b_id'];?>"  class="btn btn-danger delete"><i class="fa fa-trash"></i></button>
+                                    <td id="b_id"> <?php echo $i++; ?> </td>
+                                    <td> <?php echo $brand['account_name']; ?> </td>
+                                    <td> <?php echo $brand['url']; ?> </td>
+                                    <td> <?php echo $brand['name']; ?> </td>
+                                    <td> <?php echo $brand['email']; ?> </td>
+                                    <td> <?php echo $brand['password']; ?> </td>
+                                    <td> <?php echo $brand['phone']; ?> </td>
+                                    <td> <?php echo $brand['username']; ?> </td>
+                                    <td> <?php echo $brand['key_questions']; ?> </td>
+                                    <td> <button  id="<?php echo $brand['id'];?>" class="btn btn-info update"><i class="fa fa-edit"></i></button>
+                                        <button  id="<?php echo $brand['id'];?>"  class="btn btn-danger delete"><i class="fa fa-trash"></i></button>
                                     </td>
                                 </tr>
 
