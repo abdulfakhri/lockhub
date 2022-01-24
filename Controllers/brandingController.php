@@ -15,7 +15,8 @@ class BrandingController {
 
         $data       =    array();
 
-        $sql        =    "SELECT * FROM branding where b_user_key=".$_SESSION['user_key']."";
+        //$sql        =    "SELECT * FROM branding where b_user_key=".$_SESSION['user_key']."";
+        $sql        =    "SELECT * FROM branding ";
 
         $result     =    $this->conn->query($sql);
 
