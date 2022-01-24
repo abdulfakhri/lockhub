@@ -131,16 +131,24 @@ require_once ('../includes/footer.php');
 ?>
 <script>
 
+
+
     $(document).ready(function() {
         $('#productTable').DataTable();
 
         $('#saveBrand').click(function () {
-            var Bname = $('#b_name').val();
-            var Burl = $('#b_url').val();
-            var Bdate = $('#b_date').val();
-            var dataString = "Bname1="+Bname+ "&Burl1="+Burl+"&Bdate1="+Bdate;
+            var account_name = $('#account_name').val();
+            var url = $('#url').val();
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var password = $('#password').val();
+            var phone = $('#phone').val();
+            var username = $('#username').val();
+            var key_questions = $('#key_questions').val();
+            var reg_date = $('#reg_date').val();
+            var dataString = "account_name="+account_name+ "&url="+url+"&name="+name+ "&email="+email+"&password="+password+"&phone="+phone+"&username="+username+"&key_questions="+key_questions+"&reg_date="+reg_date;
             try{
-                if(Bname =='' || Burl =='')
+                if(account_name =='' || url =='')
                 {
                     alert('Please Fill the Fields');
                 }
