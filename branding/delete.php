@@ -5,7 +5,7 @@ if(isset($_POST['brand']))
     $db = new DBController();
     $conn = $db->connect();
     try{
-        mysqli_query($conn,'DELETE FROM branding where b_id='.$_POST['brand'].'');
+        mysqli_query($conn,'DELETE FROM pass_notes where id='.$_POST['brand'].'');
         echo "Deleted Successfully";
     }
     catch(Exception $e)
