@@ -191,9 +191,9 @@ hr {
      
       
      
-      <input type="text" placeholder=" Person Name/Company Name" name="name" required />
+      <input type="text" placeholder="Full Name" name="name" required />
 
-      <input name="username" type="text" value="" placeholder="Username..." required />
+      <input name="username" type="text" value="" placeholder="Usercode..." required />
 
       <input name="email" type="text" value="" placeholder="Email..." required />
 
