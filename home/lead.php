@@ -32,14 +32,14 @@ if(isset($_POST['add'])){
   
     $sql="INSERT INTO `pass_notes`(account_name,url,name,email,password,phone,username,key_questions,reg_date,user_key) 
       VALUES ('$account_name','$url','$name','$email','$password','$phone','$username','$key_questions','$reg_date','$user')";
-      echo "Brand Saved Successfullay";
+
 
       if (mysqli_query($conn, $sql)) {
-        echo "<center>Lead Is Registered!</center>";
+        echo "<center>Pass Is Registered!</center>";
          header('Refresh: 0.1; url=/home/cont.php');
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-        echo "Lead Is Not Registered, Try Again Later";
+        echo "Pass Is Not Registered, Try Again Later";
     }
     mysqli_close($conn);
     

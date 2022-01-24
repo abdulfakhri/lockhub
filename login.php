@@ -39,11 +39,11 @@ if(isset($_COOKIE['rememberme'])){
             
         //users log
        
-        $extra="home.php";
+        $extra="index.php";
         
        
     
-        header("location: /home/$extra");    
+        header("location: /passnote/$extra");    
              
             
          exit; 
@@ -112,12 +112,12 @@ if(isset($_POST['login'])){
         $userid = $_SESSION['id'] ;
         $_SESSION['id'] = $num['id'];
         $_SESSION['valid'] = $num['id'];
-		//$_SESSION['company_name'] = $num['company_name'];
+		    //$_SESSION['company_name'] = $num['company_name'];
 	
-	//	$_SESSION['image'] = $num['image'];
-		$_SESSION['email'] = $num['email'];		
-		//$_SESSION['address'] = $num['address'];
-		$_SESSION['mobile'] = $num['mobile'];
+	      //	$_SESSION['image'] = $num['image'];
+		    $_SESSION['email'] = $num['email'];		
+		   //$_SESSION['address'] = $num['address'];
+	    	$_SESSION['mobile'] = $num['mobile'];
         $_SESSION['name'] = $num['name'];
            
            
@@ -129,12 +129,12 @@ if(isset($_POST['login'])){
         
         
         //Redirect to the home page
-        $extra="home.php";
+        $extra="index.php";
         $home="";
         $host=$_SERVER['HTTP_HOST'];
         $uri=rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
     
-        header("location:http://$host/home/$extra");    
+        header("location:http://$host/passnote/$extra");    
             
          exit;    
             
